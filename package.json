@@ -80,7 +80,7 @@
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js",
-    "server": "npx json-server --watch public/db.json --port=5001"
+    "server": "npx json-server --watch public/db.json --port=3001"
   },
   "eslintConfig": {
     "extends": [
@@ -88,7 +88,7 @@
       "react-app/jest"
     ]
   },
-  "proxy": "http://localhost:5001",
+  "proxy": "http://localhost:3001",
   "browserslist": {
     "production": [
       ">0.2%",
